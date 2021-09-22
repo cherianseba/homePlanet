@@ -1,0 +1,12 @@
+<h2 mat-dialog-title>Planet info</h2>
+<mat-divider></mat-divider>
+<mat-dialog-content class="mat-typography">
+    <div class="planet-header">Planet Name: </div> <span class="planet-value">{{data.name}}</span>
+    <div class="planet-header">Planet Diameter: </div> <span class="planet-value">{{data.diameter}}</span>
+    <div class="planet-header">Planet Climate: </div> <span class="planet-value">{{data.climate}}</span>
+    <div class="planet-header">Planet Population: </div> <span class="planet-value">{{data.population}}</span>
+</mat-dialog-content>
+<mat-divider></mat-divider>
+<mat-dialog-actions align="end" class="mat-dialog-footer">
+  <button mat-button mat-dialog-close>Close</button>
+</mat-dialog-actions>
